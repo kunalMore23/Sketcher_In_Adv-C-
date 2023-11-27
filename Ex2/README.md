@@ -2,7 +2,7 @@
 
 ## Overview
 
-This assignment involves outputting a string returned from a function call using `std::cout`. In the `/src/Reader.cpp` file, a function named `printFileNotFoundError` is defined, which returns a string. This string is then outputted to the user with `std::cout`.
+This assignment involves outputting a string returned from a function call using `std::cout`. In the `/src/Reader.cpp` file, a function named `printFileNotFoundError()` is defined, which returns a string. This string is then outputted to the user with `std::cout`.
 
 ## Function Definition
 
