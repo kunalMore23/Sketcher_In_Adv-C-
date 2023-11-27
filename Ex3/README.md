@@ -1,4 +1,4 @@
-# Assignment4: File Handling in C++ Part2
+# Assignment3: File Handling in C++ Part2
  
 ## Overview
 This assignment involves file handling in C++ to read and process triangle data from a file. The implementation is split between two files: `Reader.cpp` and `Writer.cpp`. The tasks include using the `getline()` function, utilizing `istringstream` for string parsing, creating `Point3D` objects, and populating a vector of `Triangle` objects and to read only `vertex` value from .stl file.
