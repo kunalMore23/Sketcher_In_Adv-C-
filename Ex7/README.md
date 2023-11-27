@@ -34,5 +34,5 @@ This assignment involves utilizing a lambda expression in the `/src/Reader.cpp` 
 
 2. **Output to User:**
    - Use `std::cout` to output the string returned by the lambda expression.
-   - The output will be changed to `"Error! File not Found!`.
+   - The output will be changed to `"Error! File not Found!"`.
 
