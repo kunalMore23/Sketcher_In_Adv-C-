@@ -29,7 +29,7 @@ This assignment involves utilizing a lambda expression in the `/src/Reader.cpp` 
 ## Usage
 
 1. **Lambda Expression in Action:**
-   - Defined `std::string msg = "File error`
+   - Defined `std::string msg = "File error"`
    - Call the lambda expression `printFileNotFoundError` in the `Reader.cpp` file.
 
 2. **Output to User:**
