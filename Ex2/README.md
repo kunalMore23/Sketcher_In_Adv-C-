@@ -22,4 +22,4 @@ This assignment involves outputting a string returned from a function call using
    - Use `std::cout` to output the string returned by the function.
 
    `std::cout << printFileNotFoundError() << std::endl;`
-   -Prints on the console **Error! File Not Found!**
+   - Prints on the console **Error! File Not Found!**
