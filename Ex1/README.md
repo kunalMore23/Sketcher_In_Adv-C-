@@ -27,8 +27,6 @@ This assignment involves the function declaration in a class named `Point3D` in 
    - The test program creates an object of the `Point3D` class.
    - Calls the member function to display (x, y, z) values of the created object.
    
-    mPlanePoint3D[0].x() 
+    `mPlanePoint3D[0].x()` 
     gives (x) co-ordinate of the given Point3D.
-
-## Example
 
