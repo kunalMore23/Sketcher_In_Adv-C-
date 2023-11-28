@@ -4,11 +4,11 @@
 
 This assignment focuses on the utilization of the `std::multimap` container in C++ STL. In the `/headers/Triangulation.h` file, a `std::multimap<Triangle, double> tPerimeter` is declared to store pairs of `Triangle` objects and their perimeters. The container is populated using the `void Triangulation::setPerimeter()` function. Additionally, two methods are available to retrieve and print the perimeters:
 
-## Imp Changes
-   -The thing with the `std::map` was that it doesn't accept duplicate key values.
-   -But `std::multimap` does that and as we don't know how compiler looks at the `class Triangle` triangle object.
-   -But it confuses the triangles as the same. 
-   -So it is important to use multimap so that we remove the one confusion occuring that it should be unique.
+## ***Imp Changes***
+   *The thing with the `std::map` was that it doesn't accept duplicate key values.
+   *But `std::multimap` does that and as we don't know how compiler looks at the `class Triangle` triangle object.
+   *But it confuses the triangles as the same. 
+   *So it is important to use multimap so that we remove the one confusion occuring that it should be unique.
 
 1. **Print Perimeters:**
    - Method: `void Triangulation::printPerimeter()`
