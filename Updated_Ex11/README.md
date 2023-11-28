@@ -5,18 +5,19 @@
 This assignment focuses on the utilization of the `std::multimap` container in C++ STL. In the `/headers/Triangulation.h` file, a `std::multimap<Triangle, double> tPerimeter` is declared to store pairs of `Triangle` objects and their perimeters. The container is populated using the `void Triangulation::setPerimeter()` function. Additionally, two methods are available to retrieve and print the perimeters:
 
 ## ***Imp Changes***
-   *The thing with the `std::map` was that it doesn't accept duplicate key values.
-   *But `std::multimap` does that and as we don't know how compiler looks at the `class Triangle` triangle object.
-   *But it confuses the triangles as the same. 
-   *So it is important to use multimap so that we remove the one confusion occuring that it should be unique.
+   * The thing with the `std::map` was that it doesn't accept duplicate key values.
+   * But `std::multimap` does that and as we don't know how compiler looks at the `class Triangle` triangle object.
+   * But it confuses the triangles as the same. 
+   * So it is important to use multimap so that we remove the one confusion occuring that it should be unique.
 
+## Methods
 1. **Print Perimeters:**
    - Method: `void Triangulation::printPerimeter()`
    - Prints the stored perimeters of triangles to the console.
 
 2. **Get Perimeters:**
-   - Method: `std::map<Triangle, double> Triangulation::getPerimeter()`
-   - Returns the entire `std::map` containing triangles and their perimeters.
+   - Method: `std::multimap<Triangle, double> Triangulation::getPerimeter()`
+   - Returns the entire `std::multimap` containing triangles and their perimeters.
 
 ## Functionality
 
@@ -33,8 +34,8 @@ This assignment focuses on the utilization of the `std::multimap` container in C
    - Prints the stored perimeters of triangles to the console.
 
 4. **Get Perimeters:**
-   - Method: `std::map<Triangle, double> Triangulation::getPerimeter()`
-   - Returns the entire `std::map` containing triangles and their perimeters.
+   - Method: `std::multimap<Triangle, double> Triangulation::getPerimeter()`
+   - Returns the entire `std::multimap` containing triangles and their perimeters.
 
 ## Usage
 
@@ -49,7 +50,7 @@ This assignment focuses on the utilization of the `std::multimap` container in C
      ```
 
 3. **Get Perimeters:**
-   - Call the `getPerimeter` method to retrieve the entire `std::map` containing triangles and their perimeters.
+   - Call the `getPerimeter` method to retrieve the entire `std::multimap` containing triangles and their perimeters.
 ## Testing in `main.cpp`
 
 ```cpp
