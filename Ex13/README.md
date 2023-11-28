@@ -14,9 +14,9 @@ The objective is to make the program faster by directly treating a part code as 
    - In `/src/printLib.cpp` file we are implementing the `void printMsg()` function.
    ```
    void printMsg()
-{
+   {
     printf("Error! File Not Found!\n");
-}
+   }
     ``` 
    - Function `printMsg()` print error message.
 
